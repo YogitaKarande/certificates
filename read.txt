@@ -1,0 +1,7 @@
+
+change bg-color  for every content page
+
+ ------------------------------------
+
+ give email and call functionality hange it color when hover and normal
+ 

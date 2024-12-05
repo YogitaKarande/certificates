@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.my-custom-nav {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 750px) {
+  .my-custom-nav {
+      margin-top: 0px;
+      margin-bottom: 10px;
+      margin-right: 30px;
+      margin-left: 100px;
+      gap: 30px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+}
+
+@media (max-width: 750px) {
+  .my-custom-nav {
+      margin-top: 0px;
+      margin-bottom: 40px;
+  }
+}
+.header-nav {
+  color: white;
+}
+
+.header-nav:hover {
+  color: white !important;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white;
+  font-weight: bold;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+}
+
+/* home testmonials */
+
+[class^="button-next-"] {
+  background-color: transparent;
+  color: black;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+[class^="button-prev-"] {
+  background-color: transparent;
+  color: black;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.swiper-pagination-bullets {
+  display: none !important;
+}
+
+@media (max-width: 900px) {
+  .home-image{
+    width: 100%;
+    object-fit: cover;
+    margin-top: 30px;
+  }
+  .home-content{
+      margin-top: 60px;
+      margin-bottom: 90px;
+  }
+}
+
+@media (min-width: 900px) {
+  .home-content{
+    min-height: 81vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* All Pages */
+.heading-text {
+  text-align: center;
+  color: gray;
+  text-transform: uppercase;
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+}
+
+/* font */
+.font {
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button {
+  background-color: #f8ae6c;
+  border: none !important;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}
+
+/* header dropdown toggle */
+.dropdown-toggle {
+  color: white !important;
+} 
+
+.view-details:hover {
+  text-decoration: underline;
+}
+
+/* About */
+.about {
+  background-color: white;
+}
+
+.contact {
+  background-color: white;
+}
+
+.header {
+  background-color:#f8ae6c;
+}
+
+.home {
+  background-color: #fff7cf;
+}
+
+.testmonials {
+  background-color:  #fff7cf;
+}
+
+.footer {
+  background-color:#f8ae6c
+}
+
+.email-link {
+  text-decoration: none;
+  color: black;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+  color: #f8ae6c;
+}
+
+.phone-link {
+  text-decoration: none;
+  color: black;
+}
+
+.phone-link:hover {
+  text-decoration: underline;
+  color: #f8ae6c;
+}
+
+
+
+
+
+
